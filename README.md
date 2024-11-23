@@ -55,7 +55,7 @@ This repository contains scripts, schemas, and solutions for managing a cinema d
    - Add constraints such as `NOT NULL`, `UNIQUE`, or `ON DELETE CASCADE` where appropriate.
 
 3. **Insert Sample Data**
-   - Populate the database with sample data covering all scenarios (e.g., multiple actors per movie, movies with different languages).
+   - Populate the database with sample data covering all scenarios (e.g., multiple actors per movie, movies with different languages). Sample data can be found in the file "sampledata".
 
 
 ## Queries
