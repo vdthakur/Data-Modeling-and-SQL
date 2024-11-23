@@ -1,4 +1,4 @@
-# CINEMA Data Modeling with SQL
+# Data Modeling with SQL
 
 This repository contains scripts, schemas, and solutions for managing a cinema database. The goal is to create, populate, and query a relational database for a cinema industry scenario using MySQL.
 
