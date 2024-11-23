@@ -56,8 +56,8 @@ This repository contains scripts, schemas, and solutions for managing a cinema d
 
 3. **Insert Sample Data**
    - Populate the database with sample data covering all scenarios (e.g., multiple actors per movie, movies with different languages).
-  
-   -- Insert sample data into the Movies table
+
+-- Insert sample data into the Movies table
 INSERT INTO Movies (id, title, year, length, language)
 VALUES 
     (1, 'The Twilight Saga: Eclipse', 2010, 124, 'en'),
@@ -66,7 +66,7 @@ VALUES
     (4, 'Amélie', 2001, 122, 'fr'),
     (5, 'Parasite', 2019, 132, 'ko');
 
-   -- Insert sample data into the Actors table
+-- Insert sample data into the Actors table
 INSERT INTO Actors (id, name, gender)
 VALUES 
     (1, 'Kristen Stewart', 'female'),
@@ -75,7 +75,7 @@ VALUES
     (4, 'Ryan Gosling', 'male'),
     (5, 'Audrey Tautou', 'female');
 
-   -- Insert sample data into the ActIn table
+-- Insert sample data into the ActIn table
 INSERT INTO ActIn (actor_id, movie_id)
 VALUES 
     (1, 1), 
@@ -86,7 +86,7 @@ VALUES
     (4, 3),
     (5, 4);
 
-   -- Insert sample data into the Directors table
+-- Insert sample data into the Directors table
 INSERT INTO Directors (id, name, nationality)
 VALUES 
     (1, 'Chris Weitz', 'American'),
@@ -94,7 +94,7 @@ VALUES
     (3, 'Jean-Pierre Jeunet', 'French'),
     (4, 'Bong Joon-ho', 'South Korean');
 
-   -- Insert sample data into the DirectedBy table
+-- Insert sample data into the DirectedBy table
 INSERT INTO DirectedBy (movie_id, director_id)
 VALUES 
     (1, 1),
